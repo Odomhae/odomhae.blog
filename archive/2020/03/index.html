@@ -217,10 +217,76 @@
                     
                         <a
                             class="link-unstyled"
-                            href="/2020/03/08/kotlin/"
-                            aria-label=": kotlin"
+                            href="/2020/03/11/Kotlin-Punch-power-App/"
+                            aria-label=": Kotlin Punch power App"
                         >
-                            kotlin
+                            Kotlin Punch power App
+                        </a>
+                    
+                </h1>
+                <div class="postShorten-meta">
+    <time datetime="2020-03-11T00:27:06+09:00">
+	
+		    Mar 11, 2020
+    	
+    </time>
+    
+</div>
+
+            </div>
+            
+                <div class="postShorten-content">
+                    <h2 id="Originally-it-was-made-as-a-punch-speed-measurement-but-just-swing"><a href="#Originally-it-was-made-as-a-punch-speed-measurement-but-just-swing" class="headerlink" title="Originally, it was made as a punch speed measurement, but just swing :)"></a>Originally, it was made as a punch speed measurement, but just swing :)</h2><p align="center">
+<img src ="https://user-images.githubusercontent.com/29934506/76324753-cd749500-6329-11ea-845d-05f3c0670678.png" align ="center" width=200 height =350/>
+</p>
+
+<h2 id="Punch-as-fast-as-you-can-as-big-as-you-plz"><a href="#Punch-as-fast-as-you-can-as-big-as-you-plz" class="headerlink" title="Punch as fast as you can , as big as you plz"></a>Punch as fast as you can , as big as you plz</h2><p><br><br></p>
+<p align="center">
+<img src ="https://user-images.githubusercontent.com/29934506/76325022-2e9c6880-632a-11ea-8d07-c82d4cf739c7.png" width=200 height =350/>
+</p>
+
+<h2 id="Calculating-score-using-x-y-z-coordinates"><a href="#Calculating-score-using-x-y-z-coordinates" class="headerlink" title="Calculating score using x, y, z coordinates"></a>Calculating score using x, y, z coordinates</h2><figure class="highlight kotlin"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">override</span> <span class="function"><span class="keyword">fun</span> <span class="title">onSensorChanged</span><span class="params">(event: <span class="type">SensorEvent</span>?)</span></span> &#123;</span><br><span class="line">            event?.let &#123;</span><br><span class="line">                <span class="keyword">if</span>(event.sensor.type != Sensor.TYPE_LINEAR_ACCELERATION)</span><br><span class="line">                    <span class="keyword">return</span><span class="symbol">@let</span></span><br><span class="line"></span><br><span class="line">                <span class="comment">// Square each coordinate value to eliminate negative values ​​and maximize the difference</span></span><br><span class="line">                <span class="keyword">val</span> power =</span><br><span class="line">                    Math.pow(event.values[<span class="number">0</span>].toDouble(), <span class="number">2.0</span>) +  Math.pow(event.values[<span class="number">1</span>].toDouble(), <span class="number">2.0</span>) +</span><br><span class="line">                            Math.pow(event.values[<span class="number">2</span>].toDouble(), <span class="number">2.0</span>)</span><br></pre></td></tr></table></figure>
+<p><br><br></p>
+<p align="center">
+   <img src ="https://user-images.githubusercontent.com/29934506/76325465-acf90a80-632a-11ea-984c-4fb06669261e.png" width=200 height =350/>  <img src ="https://user-images.githubusercontent.com/29934506/76326845-90f66880-632c-11ea-9665-81b31d0a9294.jpg" width=200 height =350/>
+</p>
+
+<h2 id="The-score-range-is-very-wide"><a href="#The-score-range-is-very-wide" class="headerlink" title="The score range is very wide."></a>The score range is very wide.</h2><h2 id="Ranking-button-not-available"><a href="#Ranking-button-not-available" class="headerlink" title="Ranking button not available."></a>Ranking button not available.</h2><h3 id="Full-code-is-here"><a href="#Full-code-is-here" class="headerlink" title="Full code is here"></a>Full code is <a href="https://github.com/Odomhae/punch-Power" target="_blank" rel="noopener">here</a></h3>
+                    
+                        
+
+
+                    
+                    
+                        <p>
+                            <a
+                                href="/2020/03/11/Kotlin-Punch-power-App/#post-footer"
+                                class="postShorten-excerpt_link link"
+                                aria-label=""
+                            >
+                                Comment and share
+                            </a>
+                        </p>
+                    
+                </div>
+            
+        </div>
+        
+    </article>
+    
+    
+    <article class="postShorten postShorten--thumbnailimg-bottom">
+        <div class="postShorten-wrap">
+            
+            <div class="postShorten-header">
+                <h1 class="postShorten-title">
+                    
+                        <a
+                            class="link-unstyled"
+                            href="/2020/03/08/kotlin-Quiz-Locker/"
+                            aria-label=": kotlin Quiz Locker App"
+                        >
+                            kotlin Quiz Locker App
                         </a>
                     
                 </h1>
@@ -249,7 +315,7 @@
                     
                         <p>
                             <a
-                                href="/2020/03/08/kotlin/#post-footer"
+                                href="/2020/03/08/kotlin-Quiz-Locker/#post-footer"
                                 class="postShorten-excerpt_link link"
                                 aria-label=""
                             >
