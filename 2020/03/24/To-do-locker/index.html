@@ -6,23 +6,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="generator" content="OdomHae">
-    <title>Kotlin Punch power App - OdomHae</title>
+    <title>To do locker - OdomHae</title>
     <meta name="author" content="OdomHae">
     
     
         <link rel="icon" href="http://yoursite.com/assets/images/favicon-16x16.png">
     
     
-    <script type="application/ld+json">{"@context":"http://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"OdomHae","sameAs":["https://github.com/Odomhae","mailto","/#about"],"image":"android-chrome-192x192.png"},"articleBody":"Originally, it was made as a punch speed measurement, but just swing :)\n\n\n\nPunch as fast as you can , as big as you plz\n\n\n\n\nCalculating score using x, y, z coordinates123456789override fun onSensorChanged(event: SensorEvent?) &#123;            event?.let &#123;                if(event.sensor.type != Sensor.TYPE_LINEAR_ACCELERATION)                    return@let                // Square each coordinate value to eliminate negative values ​​and maximize the difference                val power =                    Math.pow(event.values[0].toDouble(), 2.0) +  Math.pow(event.values[1].toDouble(), 2.0) +                            Math.pow(event.values[2].toDouble(), 2.0)\n\n\n     \n\n\n\nThe score range is very wide.Ranking button not available.Full code is here","dateCreated":"2020-03-11T00:27:06+09:00","dateModified":"2020-03-24T23:40:18+09:00","datePublished":"2020-03-11T00:27:06+09:00","description":"","headline":"Kotlin Punch power App","image":[],"mainEntityOfPage":{"@type":"WebPage","@id":"http://yoursite.com/2020/03/11/Kotlin-Punch-power-App/"},"publisher":{"@type":"Organization","name":"OdomHae","sameAs":["https://github.com/Odomhae","mailto","/#about"],"image":"android-chrome-192x192.png","logo":{"@type":"ImageObject","url":"android-chrome-192x192.png"}},"url":"http://yoursite.com/2020/03/11/Kotlin-Punch-power-App/"}</script>
-    <meta name="description" content="Originally, it was made as a punch speed measurement, but just swing :)    Punch as fast as you can , as big as you plz     Calculating score using x, y, z coordinates123456789override fun onSensorCha">
+    <script type="application/ld+json">{"@context":"http://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"OdomHae","sameAs":["https://github.com/Odomhae","mailto","/#about"],"image":"android-chrome-192x192.png"},"articleBody":"It took about 1 weekDesign is suck but quit useful at least to me lolFull code is here\n\nToDoLocker\n This app reminds you constantly what to do.\n Stuff to do appears on the lock screen randomly.\n Korean, English support\n\n\n\n1. App activation\nForeground service available after Android Oreo version\n\n\n\n\n\n\n2. Add item, Delete checked items, Delete all\n    &nbsp &nbsp; &nbsp; &nbsp; \n\n\n\n3. Locked screen\nThe things on the list are shown randomly.\nIf done, push to the left :  Reflected on refresh\nIf not, push to the right : Nothing change\n \n\n\n\n\n\n\n4. If all done\nCompletion message appears and the no item on the list.\n\n\n\n","dateCreated":"2020-03-24T23:12:49+09:00","dateModified":"2020-03-24T23:38:57+09:00","datePublished":"2020-03-24T23:12:49+09:00","description":"","headline":"To do locker","image":[],"mainEntityOfPage":{"@type":"WebPage","@id":"http://yoursite.com/2020/03/24/To-do-locker/"},"publisher":{"@type":"Organization","name":"OdomHae","sameAs":["https://github.com/Odomhae","mailto","/#about"],"image":"android-chrome-192x192.png","logo":{"@type":"ImageObject","url":"android-chrome-192x192.png"}},"url":"http://yoursite.com/2020/03/24/To-do-locker/"}</script>
+    <meta name="description" content="It took about 1 weekDesign is suck but quit useful at least to me lolFull code is here  ToDoLocker  This app reminds you constantly what to do.  Stuff to do appears on the lock screen randomly.  Korea">
 <meta property="og:type" content="blog">
-<meta property="og:title" content="Kotlin Punch power App">
-<meta property="og:url" content="http://yoursite.com/2020/03/11/Kotlin-Punch-power-App/index.html">
+<meta property="og:title" content="To do locker">
+<meta property="og:url" content="http://yoursite.com/2020/03/24/To-do-locker/index.html">
 <meta property="og:site_name" content="OdomHae">
-<meta property="og:description" content="Originally, it was made as a punch speed measurement, but just swing :)    Punch as fast as you can , as big as you plz     Calculating score using x, y, z coordinates123456789override fun onSensorCha">
+<meta property="og:description" content="It took about 1 weekDesign is suck but quit useful at least to me lolFull code is here  ToDoLocker  This app reminds you constantly what to do.  Stuff to do appears on the lock screen randomly.  Korea">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2020-03-10T15:27:06.000Z">
-<meta property="article:modified_time" content="2020-03-24T14:40:18.640Z">
+<meta property="article:published_time" content="2020-03-24T14:12:49.000Z">
+<meta property="article:modified_time" content="2020-03-24T14:38:57.945Z">
 <meta property="article:author" content="OdomHae">
 <meta name="twitter:card" content="summary">
     
@@ -216,14 +216,14 @@
         <div class="post-header main-content-wrap text-left">
     
         <h1 class="post-title">
-            Kotlin Punch power App
+            To do locker
         </h1>
     
     
         <div class="post-meta">
-    <time datetime="2020-03-11T00:27:06+09:00">
+    <time datetime="2020-03-24T23:12:49+09:00">
 	
-		    Mar 11, 2020
+		    Mar 24, 2020
     	
     </time>
     
@@ -235,23 +235,45 @@
     
     <div class="post-content markdown">
         <div class="main-content-wrap">
-            <h2 id="Originally-it-was-made-as-a-punch-speed-measurement-but-just-swing"><a href="#Originally-it-was-made-as-a-punch-speed-measurement-but-just-swing" class="headerlink" title="Originally, it was made as a punch speed measurement, but just swing :)"></a>Originally, it was made as a punch speed measurement, but just swing :)</h2><p align="center">
-<img src ="https://user-images.githubusercontent.com/29934506/76324753-cd749500-6329-11ea-845d-05f3c0670678.png" align ="center" width=200 height =350/>
-</p>
-
-<h2 id="Punch-as-fast-as-you-can-as-big-as-you-plz"><a href="#Punch-as-fast-as-you-can-as-big-as-you-plz" class="headerlink" title="Punch as fast as you can , as big as you plz"></a>Punch as fast as you can , as big as you plz</h2><p><br><br></p>
-<p align="center">
-<img src ="https://user-images.githubusercontent.com/29934506/76325022-2e9c6880-632a-11ea-8d07-c82d4cf739c7.png" width=200 height =350/>
-</p>
-
-<h2 id="Calculating-score-using-x-y-z-coordinates"><a href="#Calculating-score-using-x-y-z-coordinates" class="headerlink" title="Calculating score using x, y, z coordinates"></a>Calculating score using x, y, z coordinates</h2><figure class="highlight kotlin"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">override</span> <span class="function"><span class="keyword">fun</span> <span class="title">onSensorChanged</span><span class="params">(event: <span class="type">SensorEvent</span>?)</span></span> &#123;</span><br><span class="line">            event?.let &#123;</span><br><span class="line">                <span class="keyword">if</span>(event.sensor.type != Sensor.TYPE_LINEAR_ACCELERATION)</span><br><span class="line">                    <span class="keyword">return</span><span class="symbol">@let</span></span><br><span class="line"></span><br><span class="line">                <span class="comment">// Square each coordinate value to eliminate negative values ​​and maximize the difference</span></span><br><span class="line">                <span class="keyword">val</span> power =</span><br><span class="line">                    Math.pow(event.values[<span class="number">0</span>].toDouble(), <span class="number">2.0</span>) +  Math.pow(event.values[<span class="number">1</span>].toDouble(), <span class="number">2.0</span>) +</span><br><span class="line">                            Math.pow(event.values[<span class="number">2</span>].toDouble(), <span class="number">2.0</span>)</span><br></pre></td></tr></table></figure>
+            <p><strong><em>It took about 1 week<br>Design is suck but quit useful at least to me lol<br>Full code is <a href="https://github.com/Odomhae/ToDoLocker" target="_blank" rel="noopener">here</a></em></strong></p>
+<hr>
+<h1 id="ToDoLocker"><a href="#ToDoLocker" class="headerlink" title="ToDoLocker"></a>ToDoLocker</h1><ul>
+<li><input checked="" disabled="" type="checkbox"> This app reminds you constantly what to do.</li>
+<li><input checked="" disabled="" type="checkbox"> Stuff to do appears on the lock screen randomly.</li>
+<li><input checked="" disabled="" type="checkbox"> Korean, English support</li>
+</ul>
+<hr>
 <p><br><br></p>
-<p align="center">
-   <img align = "left" img src ="https://user-images.githubusercontent.com/29934506/76325465-acf90a80-632a-11ea-984c-4fb06669261e.png" width=200 height =350 hspace ="20" />  <img align = "left" img src ="https://user-images.githubusercontent.com/29934506/76326845-90f66880-632c-11ea-9665-81b31d0a9294.jpg" width=200 height =350 hspace ="20"/>
+<h2 id="1-App-activation"><a href="#1-App-activation" class="headerlink" title="1. App activation"></a>1. App activation</h2><ul>
+<li>Foreground service available after Android Oreo version<p align="center">
+<img src = "https://user-images.githubusercontent.com/29934506/77386153-7f519e00-6dcd-11ea-9800-c6f9b94ef16e.gif" width=200 height =350/>
+</p>
+<br><br>
+
+</li>
+</ul>
+<h2 id="2-Add-item-Delete-checked-items-Delete-all"><a href="#2-Add-item-Delete-checked-items-Delete-all" class="headerlink" title="2. Add item, Delete checked items, Delete all"></a>2. Add item, Delete checked items, Delete all</h2><p align="center">
+<img align="left" img src = "https://user-images.githubusercontent.com/29934506/77386375-0141c700-6dce-11ea-9230-57f49105b7bd.gif" width=200 height =350 hspace ="20"/>   <img align="left" img src = "https://user-images.githubusercontent.com/29934506/77386451-27fffd80-6dce-11ea-87dc-0c6f069adfed.gif" width=200 height =350 hspace ="20"/> &nbsp &nbsp; &nbsp; &nbsp; <img align="left" img src = "https://user-images.githubusercontent.com/29934506/77386465-32ba9280-6dce-11ea-8aef-d0455f095491.gif" width=200 height =350 hspace ="20"/>
 </p>
 
-<p><br><br><br><br><br><br><br><br><br><br><br><br></p>
-<h2 id="The-score-range-is-very-wide"><a href="#The-score-range-is-very-wide" class="headerlink" title="The score range is very wide."></a>The score range is very wide.</h2><h2 id="Ranking-button-not-available"><a href="#Ranking-button-not-available" class="headerlink" title="Ranking button not available."></a>Ranking button not available.</h2><h3 id="Full-code-is-here"><a href="#Full-code-is-here" class="headerlink" title="Full code is here"></a>Full code is <a href="https://github.com/Odomhae/punch-Power" target="_blank" rel="noopener">here</a></h3>
+<p><br><br><br><br><br><br><br><br><br><br></p>
+<h2 id="3-Locked-screen"><a href="#3-Locked-screen" class="headerlink" title="3. Locked screen"></a>3. Locked screen</h2><ul>
+<li>The things on the list are shown randomly.<ul>
+<li>If done, push to the left :  Reflected on refresh</li>
+<li>If not, push to the right : Nothing change<p align="center">
+<img align="left" img src = "https://user-images.githubusercontent.com/29934506/77386090-60eba280-6dcd-11ea-8343-7d97a98ffafb.gif" width=200 height =350 hspace ="20"/> <img align="left" img src = "https://user-images.githubusercontent.com/29934506/77429613-48a37400-6e1d-11ea-9439-6dff0474a9df.gif" width=200 height =350 hspace ="20"/>
+
+</li>
+</ul>
+</li>
+</ul>
+<p><br><br><br><br><br><br><br><br><br><br><br></p>
+<h2 id="4-If-all-done"><a href="#4-If-all-done" class="headerlink" title="4. If all done"></a>4. If all done</h2><ul>
+<li>Completion message appears and the no item on the list.<p align="center">
+<img src = "https://user-images.githubusercontent.com/29934506/77386501-4c5bda00-6dce-11ea-913e-a4b6217c0579.gif" width=200 height =350/>
+</li>
+</ul>
+
             
 
 
@@ -265,14 +287,11 @@
         <ul class="post-actions post-action-nav">
             <li class="post-action">
                 
-                    
-                <a
-                    class="post-action-btn btn btn--default tooltip--top"
-                    href="/2020/03/24/To-do-locker/"
-                    data-tooltip="To do locker"
-                    aria-label="PREVIOUS: To do locker"
-                >
-                    
+                    <a
+                        class="post-action-btn btn btn--disabled"
+                        aria-hidden="true"
+                    >
+                        
                         <i class="fa fa-angle-left" aria-hidden="true"></i>
                         <span class="hide-xs hide-sm text-small icon-ml">PREVIOUS</span>
                     </a>
@@ -282,9 +301,9 @@
                     
                 <a
                     class="post-action-btn btn btn--default tooltip--top"
-                    href="/2020/03/08/kotlin-Quiz-Locker/"
-                    data-tooltip="kotlin Quiz Locker App"
-                    aria-label="NEXT: kotlin Quiz Locker App"
+                    href="/2020/03/11/Kotlin-Punch-power-App/"
+                    data-tooltip="Kotlin Punch power App"
+                    aria-label="NEXT: Kotlin Punch power App"
                 >
                     
                         <span class="hide-xs hide-sm text-small icon-mr">NEXT</span>
@@ -309,7 +328,7 @@
             <li class="post-action hide-xs">
                 <a
                     class="post-action-btn btn btn--default"
-                    target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://yoursite.com/2020/03/11/Kotlin-Punch-power-App/"
+                    target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://yoursite.com/2020/03/24/To-do-locker/"
                     title="Share on Facebook"
                     aria-label="Share on Facebook"
                 >
@@ -322,7 +341,7 @@
             <li class="post-action hide-xs">
                 <a
                     class="post-action-btn btn btn--default"
-                    target="new" href="https://twitter.com/intent/tweet?text=http://yoursite.com/2020/03/11/Kotlin-Punch-power-App/"
+                    target="new" href="https://twitter.com/intent/tweet?text=http://yoursite.com/2020/03/24/To-do-locker/"
                     title="Share on Twitter"
                     aria-label="Share on Twitter"
                 >
@@ -335,7 +354,7 @@
             <li class="post-action hide-xs">
                 <a
                     class="post-action-btn btn btn--default"
-                    target="new" href="https://plus.google.com/share?url=http://yoursite.com/2020/03/11/Kotlin-Punch-power-App/"
+                    target="new" href="https://plus.google.com/share?url=http://yoursite.com/2020/03/24/To-do-locker/"
                     title="Share on Google+"
                     aria-label="Share on Google+"
                 >
@@ -380,14 +399,11 @@
         <ul class="post-actions post-action-nav">
             <li class="post-action">
                 
-                    
-                <a
-                    class="post-action-btn btn btn--default tooltip--top"
-                    href="/2020/03/24/To-do-locker/"
-                    data-tooltip="To do locker"
-                    aria-label="PREVIOUS: To do locker"
-                >
-                    
+                    <a
+                        class="post-action-btn btn btn--disabled"
+                        aria-hidden="true"
+                    >
+                        
                         <i class="fa fa-angle-left" aria-hidden="true"></i>
                         <span class="hide-xs hide-sm text-small icon-ml">PREVIOUS</span>
                     </a>
@@ -397,9 +413,9 @@
                     
                 <a
                     class="post-action-btn btn btn--default tooltip--top"
-                    href="/2020/03/08/kotlin-Quiz-Locker/"
-                    data-tooltip="kotlin Quiz Locker App"
-                    aria-label="NEXT: kotlin Quiz Locker App"
+                    href="/2020/03/11/Kotlin-Punch-power-App/"
+                    data-tooltip="Kotlin Punch power App"
+                    aria-label="NEXT: Kotlin Punch power App"
                 >
                     
                         <span class="hide-xs hide-sm text-small icon-mr">NEXT</span>
@@ -424,7 +440,7 @@
             <li class="post-action hide-xs">
                 <a
                     class="post-action-btn btn btn--default"
-                    target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://yoursite.com/2020/03/11/Kotlin-Punch-power-App/"
+                    target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://yoursite.com/2020/03/24/To-do-locker/"
                     title="Share on Facebook"
                     aria-label="Share on Facebook"
                 >
@@ -437,7 +453,7 @@
             <li class="post-action hide-xs">
                 <a
                     class="post-action-btn btn btn--default"
-                    target="new" href="https://twitter.com/intent/tweet?text=http://yoursite.com/2020/03/11/Kotlin-Punch-power-App/"
+                    target="new" href="https://twitter.com/intent/tweet?text=http://yoursite.com/2020/03/24/To-do-locker/"
                     title="Share on Twitter"
                     aria-label="Share on Twitter"
                 >
@@ -450,7 +466,7 @@
             <li class="post-action hide-xs">
                 <a
                     class="post-action-btn btn btn--default"
-                    target="new" href="https://plus.google.com/share?url=http://yoursite.com/2020/03/11/Kotlin-Punch-power-App/"
+                    target="new" href="https://plus.google.com/share?url=http://yoursite.com/2020/03/24/To-do-locker/"
                     title="Share on Google+"
                     aria-label="Share on Google+"
                 >
@@ -484,7 +500,7 @@
                     <a
                         class="share-option-btn"
                         target="new"
-                        href="https://www.facebook.com/sharer/sharer.php?u=http://yoursite.com/2020/03/11/Kotlin-Punch-power-App/"
+                        href="https://www.facebook.com/sharer/sharer.php?u=http://yoursite.com/2020/03/24/To-do-locker/"
                         aria-label="Share on Facebook"
                     >
                         <i class="fab fa-facebook" aria-hidden="true"></i><span>Share on Facebook</span>
@@ -497,7 +513,7 @@
                     <a
                         class="share-option-btn"
                         target="new"
-                        href="https://twitter.com/intent/tweet?text=http://yoursite.com/2020/03/11/Kotlin-Punch-power-App/"
+                        href="https://twitter.com/intent/tweet?text=http://yoursite.com/2020/03/24/To-do-locker/"
                         aria-label="Share on Twitter"
                     >
                         <i class="fab fa-twitter" aria-hidden="true"></i><span>Share on Twitter</span>
@@ -510,7 +526,7 @@
                     <a
                         class="share-option-btn"
                         target="new"
-                        href="https://plus.google.com/share?url=http://yoursite.com/2020/03/11/Kotlin-Punch-power-App/"
+                        href="https://plus.google.com/share?url=http://yoursite.com/2020/03/24/To-do-locker/"
                         aria-label="Share on Google+"
                     >
                         <i class="fab fa-google-plus" aria-hidden="true"></i><span>Share on Google+</span>
